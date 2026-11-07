@@ -154,6 +154,10 @@ nav,
   color: white;
 }
 
+.dark-theme .secondary {
+  color: #f06449;
+}
+
 .dark-theme section {
   background-color: #242424;
 }
@@ -165,10 +169,10 @@ nav,
 .dark-theme .scroll__icon {
   border-color: #fff;
 }
-.dark-theme .scroll__icon:after {
+.dark-theme .scroll__icon:after,
+.dark-theme .link__hover-effect--black:after {
   background-color: #fff;
 }
-
 .dark-theme .mail__btn {
   background-color: #fff;
   color: #242424;
