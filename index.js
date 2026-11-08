@@ -5,6 +5,9 @@
 // UdxyXcVNaEvLtUoTR
 let isModalOpen = false;
 let contrastToggle = false;
+
+function moveBackground(event) {}
+
 function toggleContrast() {
   contrastToggle = !contrastToggle;
   if (contrastToggle) {
